@@ -15,4 +15,4 @@ class RestaurantsContainer extends Component {
   }
 }
 
-export default RestaurantsContainer
+const mapStateToProps = ({ restaurants }) => ({ restaurants })
