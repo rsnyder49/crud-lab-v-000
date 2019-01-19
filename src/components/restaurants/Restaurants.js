@@ -15,7 +15,7 @@ class Restaurants extends Component {
     });
     return(
       <ul>
-        Restaurants Component
+        {restaurants_list}
       </ul>
     );
   }
