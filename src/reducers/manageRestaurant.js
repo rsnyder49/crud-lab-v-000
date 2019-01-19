@@ -20,6 +20,6 @@ export default function manageRestaurants(state = {restaurants: [], reviews: []}
   default:
             return state;
     }
-} 
+ 
 
 }
