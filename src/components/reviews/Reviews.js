@@ -8,7 +8,9 @@ class Reviews extends Component {
     
     return (
       <ul>
-        Reviews
+        {associatedReviews.map((review, index) => {
+          return <Review key={index} review={review} deleteReview={deleteReview} />
+          })}
       </ul>
     );
   }
