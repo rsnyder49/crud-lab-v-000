@@ -9,7 +9,7 @@ class ReviewsContainer extends Component {
     return (
       <div>
         <ReviewInput />
-        <Reviews />
+        <Reviews reviews={this.props.reviews} deleteReview={this.props.deleteReview} restaurantId={this.props.restaurant.id}/>
       </div>
     )
   }
