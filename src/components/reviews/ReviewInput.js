@@ -20,7 +20,11 @@ class ReviewInput extends Component {
   render() {
     return (
       <div>
-        Review Input
+        <form onSubmit={(event) => this.handleOnSubmit(event)} >
+          <label>Add Review</label>
+          <input type="text" onChange={(event) => this.handleOnChange(event)} value={this.state.text}/>
+          <input type="submit" />
+        </form>
       </div>
     );
   }
